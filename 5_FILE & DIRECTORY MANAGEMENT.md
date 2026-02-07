@@ -38,6 +38,16 @@ mkdir folder1 folder2 folder3
 mkdir -p linux/practice/day1
 ```
 
+What -p means
+
+-p = parents
+
+It tells Linux to:
+
+Create all parent directories (linux, practice) if they don’t exist
+
+Not show an error if the directory already exists
+
 Creates:
 
 ```

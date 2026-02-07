@@ -1,8 +1,4 @@
-Excellent 👍 Let’s continue **slow, simple, and very clear**.
 
-Below is **CHAPTER 3 ONLY** — one of the **MOST IMPORTANT chapters in Linux**.
-
----
 
 # 🐧 CHAPTER 3 — LINUX FILE SYSTEM STRUCTURE (BEGINNER FRIENDLY)
 
@@ -250,17 +246,3 @@ pwd
 5. Return to home folder
 
 ---
-
-# ✅ CHAPTER 3 COMPLETE
-
-If you are comfortable with this, say:
-
-👉 **NEXT (4)**
-
-and I will give:
-
-# 🐧 CHAPTER 4 — Basic Navigation Commands (pwd, ls, cd)
-
----
-
-We are building **very strong Linux foundation** 💪
