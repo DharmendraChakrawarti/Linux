@@ -358,6 +358,35 @@ sudo chown user:group file.txt
 
 ---
 
+
+#Change group of a file or directory
+### `chgrp` — Very Short ✅
+**Syntax:**
+
+```bash
+chgrp group_name file_or_folder
+```
+
+**Example:**
+
+```bash
+chgrp dev file.txt
+```
+
+**Recursive:**
+
+```bash
+chgrp -R dev folder/
+```
+
+**Check:**
+
+```bash
+ls -l
+```
+
+Done 👍
+
 # 7. umask — Default Permission
 
 Shows default permission setting.
