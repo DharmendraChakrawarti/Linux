@@ -359,7 +359,7 @@ sudo chown user:group file.txt
 ---
 
 
-#Change group of a file or directory
+# Change group of a file or directory
 ### `chgrp` — Very Short ✅
 **Syntax:**
 
