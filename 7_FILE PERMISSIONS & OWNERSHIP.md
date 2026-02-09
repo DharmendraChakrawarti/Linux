@@ -62,6 +62,212 @@ Break it:
 | others | Everyone else |
 
 ---
+Got it 👍 You want **Linux permissions WITHOUT numeric method** — only **symbolic method** (u, g, o, a).
+
+---
+
+# 🔐 Linux Permissions – WITHOUT Numeric Method (Beginner Friendly)
+
+We use **symbolic notation**:
+
+```
+u → user (owner)
+g → group
+o → others
+a → all (u+g+o)
+
++ → add permission
+- → remove permission
+= → set exact permission
+```
+
+Permissions:
+
+```
+r → read
+w → write
+x → execute
+```
+
+---
+
+# 🔍 Check Permissions
+
+```bash
+ls -l
+```
+
+Example:
+
+```
+-rw-r--r-- 1 root root file.txt
+```
+
+---
+
+# ➕ Add Permission
+
+### Add read to owner:
+
+```bash
+chmod u+r file.txt
+```
+
+### Add write to group:
+
+```bash
+chmod g+w file.txt
+```
+
+### Add execute to others:
+
+```bash
+chmod o+x script.sh
+```
+
+### Add read to everyone:
+
+```bash
+chmod a+r file.txt
+```
+
+---
+
+# ➖ Remove Permission
+
+### Remove write from owner:
+
+```bash
+chmod u-w file.txt
+```
+
+### Remove execute from group:
+
+```bash
+chmod g-x script.sh
+```
+
+### Remove read from others:
+
+```bash
+chmod o-r file.txt
+```
+
+### Remove write from all:
+
+```bash
+chmod a-w file.txt
+```
+
+---
+
+# 🎯 Set Exact Permission (=)
+
+### Set only read & write for owner:
+
+```bash
+chmod u=rw file.txt
+```
+
+### Set full permission for owner:
+
+```bash
+chmod u=rwx file.txt
+```
+
+### Set only read for all:
+
+```bash
+chmod a=r file.txt
+```
+
+---
+
+# 🔄 Multiple Changes in One Command
+
+```bash
+chmod u+rwx,g+rx,o+r file.txt
+```
+
+Meaning:
+
+* Owner → rwx
+* Group → r-x
+* Others → r--
+
+---
+
+# 📂 Directory Permission Example
+
+### Give full access to owner, read+execute to others:
+
+```bash
+chmod u=rwx,go=rx mydir
+```
+
+---
+
+# 🛡️ Special Permissions (Without Numbers)
+
+### SUID:
+
+```bash
+chmod u+s file
+```
+
+### SGID:
+
+```bash
+chmod g+s folder
+```
+
+### Sticky Bit:
+
+```bash
+chmod +t /shared
+```
+
+---
+
+# 🧠 Real-Life Examples
+
+### Make script executable:
+
+```bash
+chmod u+x deploy.sh
+```
+
+### Make file read-only:
+
+```bash
+chmod a-w report.txt
+```
+
+### Secure private file:
+
+```bash
+chmod u=rw,go= private.txt
+```
+
+---
+
+# ⚡ Quick Practice
+
+```bash
+touch demo.txt
+chmod u=rw,g=r,o= demo.txt
+ls -l demo.txt
+```
+
+---
+
+If you want, I can give:
+
+✅ **Practice tasks**
+✅ **Interview Q&A**
+✅ **Real-world permission scenarios**
+
+Just say 😄
 
 # 4. Numeric Permission System (Very Important)
 
