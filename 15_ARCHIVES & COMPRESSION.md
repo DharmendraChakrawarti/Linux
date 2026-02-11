@@ -1,9 +1,3 @@
-Excellent, Dharmendra 👌
-This is a **very important chapter for Linux Admin + DevOps + Cloud engineers**, because **backup, restore, and deployment packaging** depend heavily on these commands.
-
-Below is **CHAPTER 15 — ARCHIVES & COMPRESSION** explained in **full detail (Beginner → Pro Level)** with **real-world use cases, examples, and interview points**.
-
----
 
 # 🐧 CHAPTER 15 — ARCHIVES & COMPRESSION (DETAILED GUIDE)
 
@@ -370,23 +364,3 @@ tar -cvf - folder | pigz > backup.tar.gz
 ```
 
 ---
-
-# 🚀 Next Chapter Suggestion
-
-**CHAPTER 16 — DISK & STORAGE MANAGEMENT**
-
-```
-df
-du
-lsblk
-mount
-umount
-fdisk
-mkfs
-```
-
-👉 EXTREMELY important for **Linux Admin + Cloud + DevOps**
-
----
-
-If you want, I can continue making **complete Linux Admin + DevOps MASTER NOTES** for you 😄
